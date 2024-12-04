@@ -78,6 +78,8 @@ def q_01():
                     count(*) AS count_order
                 FROM
                     lineitem{extension}
+                WHERE
+                    l_shipdate <= CAST('1996-09-02' AS date)
                 GROUP BY
                     l_returnflag,
                     l_linestatus
