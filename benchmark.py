@@ -150,10 +150,10 @@ def q_21():
         median_time = statistics.median(times) 
         print(f"{extension} Median Time: {median_time:.4f} seconds")      
 
-# gen_tpch()
+gen_tpch()
 
-# load_data()
+load_data()
 
-# q_01()
+q_01()
 
 q_21()
